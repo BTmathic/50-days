@@ -1,0 +1,296 @@
+.project--container-elephant {
+  background: lightGreen;
+}
+
+.elephant {
+  height: 125%;
+  margin: auto;
+  max-height: 600px;
+  max-width: 800px;
+  position: relative;
+  top: 10%;
+  width: 125%;
+  .elephant--back-bump {
+    background: #A9A9A9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* Standard syntax */
+    border-radius: 50%;
+    height: 20%;
+    left: 23%;
+    position: absolute;
+    top: 23%;
+    width: 23%;
+    z-index: 1;
+  }
+  .elephant--body {
+    background: #A9A9A9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#A9A9A9, #AAAAAA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A9A9A9, #AAAAAA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A9A9A9, #AAAAAA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A9A9A9, #AAAAAA); /* Standard syntax */
+    border-radius: 50px;
+    height: 20%;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    width: 25%;  
+    .elephant--body-copy {
+      background: #A9A9A9; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#DDDDDD 10%, #A9A9A9 40%); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#DDDDDD 10%, #A9A9A9 40%); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#DDDDDD 10%, #A9A9A9 40%); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#DDDDDD 10%, #A9A9A9 40%); /* Standard syntax */
+      border-radius: 50px;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+    }
+    .elephant--back-left-foot {
+      background: #888888; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#AAAAAA, #888888); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#AAAAAA, #888888); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#AAAAAA, #888888); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#AAAAAA, #888888); /* Standard syntax */
+      height: 50%;
+      left: -3%;
+      position: absolute;
+      top: 60%;
+      width: 20%;
+      z-index: 0;
+      .elephant--lower-back-left-foot {
+        background: #555555; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#888888, #555555); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#888888, #555555); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#888888, #555555); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#888888, #555555); /* Standard syntax */
+        border-radius: 15px;
+        height: 100%;
+        left: -45%;
+        position: absolute;
+        top: 75%;
+        transform: rotate(45deg);
+        width: 90%;
+        z-index: 0;
+      }
+    }
+    .elephant--back-right-foot {
+      background: darkGray;
+      border-radius: 15px;
+      height: 50%;
+      left: 7%;
+      position: absolute;
+      top: 60%;
+      transform: rotate(-5deg);
+      width: 20%;
+      z-index: 2;
+      .elephant--lower-back-right-foot {
+        background: #A9A9A9; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#A9A9A9, #888888); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#A9A9A9, #888888); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#A9A9A9, #888888); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#A9A9A9, #888888); /* Standard syntax */
+        border-radius: 15px;
+        height: 115%;
+        left: 5%;
+        position: absolute;
+        top: 75%;
+        transform: rotate(5deg);
+        width: 85%;
+        z-index: 2;
+      }
+    }
+    .elephant--front-left-foot {
+      background: #555555; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#888888, #555555); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#888888, #555555); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#888888, #555555); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#888888, #555555); /* Standard syntax */
+      border-radius: 15px;
+      height: 90%;
+      position: absolute;
+      right: 20%;
+      top: 60%;
+      width: 15%;
+      z-index: 0;
+    }
+    .elephant--front-right-foot {
+      background: #A9A9A9; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#A9A9A9, #888888); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#A9A9A9, #888888); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#A9A9A9, #888888); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#A9A9A9, #888888); /* Standard syntax */
+      border-radius: 15px;
+      height: 90%;
+      position: absolute;
+      right: -2%;
+      top: 60%;
+      transform: rotate(-30deg);
+      width: 18%;
+      z-index: 2;
+    }
+    .elephant--head {
+      background: #A9A9A9; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#DDDDDD 20%, #A9A9A9 50%); /* Standard syntax */
+      border-radius: 50%;
+      height: 75%;
+      position: absolute;
+      right: -25%;
+      top: -25%;
+      width: 50%;
+      z-index: 1;
+      .elephant--head-copy {
+        background: #A9A9A9; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#DDDDDD 20%, #A9A9A9 90%); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#DDDDDD 20%, #A9A9A9 90%); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#DDDDDD 20%, #A9A9A9 90%); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#DDDDDD 20%, #A9A9A9 90%); /* Standard syntax */
+        border-radius: 50%;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+      }
+      .elephant--left-ear {
+        background: gray;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 15%;
+        height: 60%;
+        left: 40%;
+        position: absolute;
+        transform: rotate(210deg);
+        width: 50%;
+        z-index: 0;
+      }
+      .elephant--right-ear {
+        background: #A9A9A9; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#DDDDDD 10%, #A9A9A9 80%); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#DDDDDD 10%, #A9A9A9 80%); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#DDDDDD 10%, #A9A9A9 80%); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#DDDDDD 10%, #A9A9A9 80%); /* Standard syntax */
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 50%;
+        height: 60%;
+        left: -10%;
+        position: absolute;
+        transform: rotate(30deg);
+        width: 50%;
+        z-index: 2;
+      }
+      .elephant--eye {
+        background: #CCCCCC; /* For browsers that do not support gradients */
+        background: -webkit-radial-gradient(#555555, #CCCCCC); /* Safari 5.1 to 6.0 */
+        background: -o-radial-gradient(#555555, #CCCCCC); /* For Opera 11.6 to 12.0 */
+        background: -moz-radial-gradient(#555555, #CCCCCC); /* For Firefox 3.6 to 15 */
+        background: radial-gradient(#555555, #CCCCCC); /* Standard syntax */
+        border-radius: 50%;
+        height: 10%;
+        left: 55%;
+        position: absolute;
+        top: 35%;
+        width: 12%;
+        z-index: 2;
+      }
+      .elephant--trunk {
+        height: 200%;
+        left: 85%;
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        .elephant--trunk-copy {
+          height: 100%;
+          position: absolute;
+          width: 100%;
+          z-index: 2;
+        }
+        .elephant--top-trunk {
+          background: #999999; /* For browsers that do not support gradients */
+          background: -webkit-linear-gradient(#BBBBBB 20%, #999999 90%); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(#BBBBBB 20%, #999999 90%); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(#BBBBBB 20%, #999999 90%); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(#BBBBBB 20%, #999999 90%); /* Standard syntax */
+          border-bottom-right-radius: 5px;
+          height: 35%;
+          position: absolute;
+          transform: rotate(-30deg);
+          width: 45%;
+          z-index: 0;
+        }
+        .elephant--mid-trunk {
+          background: #999999; /* For browsers that do not support gradients */
+          background: -webkit-linear-gradient(#999999 20%, #777777 90%); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(#999999 20%, #777777 90%); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(#999999 20%, #777777 90%); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(#999999 20%, #777777 90%); /* Standard syntax */
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 10px;
+          height: 25%;
+          left: 30%;
+          position: absolute;
+          top: 25%;
+          transform: rotate(10deg);
+          width: 35%;
+          z-index: 2;
+        }
+        .elephant--bot-trunk {
+          background: #999999; /* For browsers that do not support gradients */
+          background: -webkit-linear-gradient(#777777 20%, #555555 90%); /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(#777777 20%, #555555 90%); /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(#777777 20%, #555555 90%); /* For Firefox 3.6 to 15 */
+          background: linear-gradient(#777777 20%, #555555 90%); /* Standard syntax */
+          border-top-left-radius: 10px;
+          height: 25%;
+          left: 37%;
+          position: absolute;
+          top: 43%;
+          transform: rotate(-20deg);
+          width: 25%;
+          z-index: 2;
+        }
+      }
+    }
+    .elephant--tail {
+      height: 100%;
+      left: -45%;
+      position: absolute;
+      top: 5%;
+      transform: rotate(90deg);
+      width: 15%;
+      z-index: 1;
+      .elephant--tail-copy {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+      }
+      .elephant--tail-top {
+        background: darkGray;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 40%;
+        height: 50%;
+        position: absolute;
+        top: -10%;
+        transform: rotate(-20deg);
+        width: 25%;
+        z-index: 1;
+      }
+      .elephant--tail-bot {
+        background: darkGray;
+        border-radius: 5px;
+        height: 50%;
+        left: 53%;
+        position: absolute;
+        top: 33%;
+        transform: rotate(-10deg);
+        width: 15%;
+        z-index: 1;
+      }
+    }
+  }
+}

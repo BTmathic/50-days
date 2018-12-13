@@ -4,9 +4,9 @@ import { history } from '../routers/AppRouter';
 export default (props) => (
   <div className='project project--full'>
     <h3>{props.title}</h3>
-    <div className={`project--container project--container-beaver`}
+    <div className={'project--container project--container-beaver'}
       onClick={() => {
-        history.push(`/projects/${props.number}}`)
+        history.push('/projects/3')
         return false;
       }}
     >

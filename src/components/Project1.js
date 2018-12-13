@@ -6,7 +6,7 @@ export default (props) => (
     <h3>{props.title}</h3>
     <div className='project--container project--container-bear'
       onClick={() => {
-        history.push(`/projects/${props.number}}`)
+        history.push('/projects/1')
         return false;
       }}
     >
