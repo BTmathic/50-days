@@ -1,0 +1,159 @@
+.project--container-bear {
+  background: #008000;
+}
+
+.bear {
+  display: block;
+  height: 100%;
+  margin: auto;
+  max-height: 500px;
+  max-width: 600px;
+  position: relative;
+  width: 100%;
+  .bear--head {
+    background: #bf8040;
+    border-radius: 50%;
+    height: 70%;
+    left: 20%;
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    .bear--head-copy {
+      background: #bf8040;
+      border-radius: 50%;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 2;
+    }
+    .bear--left-ear, .bear--right-ear {
+      background: #bf8040;
+      border-radius: 50%;
+      height: 35%;
+      position: absolute;
+      width: 35%;
+      z-index: 1;
+      .bear--inner-ear {
+        background: #4d3319;
+        border-radius: 50%;
+        height: 50%;
+        left: 25%;
+        position: absolute;
+        top: 25%;
+        width: 50%;
+        z-index: 1;
+      }
+    }
+    .bear--left-ear { left: -5%; }
+    .bear--right-ear { right: -5%; }
+    .bear--left-eye, .bear--right-eye {
+      background: white;
+      border-radius: 50%;
+      height: 15%;
+      position: absolute;
+      top: 35%;
+      width: 15%;
+      z-index: 3;
+      .bear--pupil {
+        background: #392613;
+        border-radius: 50%;
+        height: 50%;
+        left: 10%;
+        position: absolute;
+        top: 10%;
+        width: 50%;
+        z-index: 3;
+      }
+    }
+    .bear--left-eye { left: 20%; }
+    .bear--right-eye { right: 20%; }
+    .bear--muzzle {
+      background: -webkit-radial-gradient(#392613 20%, #bf8040 70%); /* Safari 5.1 to 6.0 */
+      background: -o-radial-gradient(#392613 20%, #bf8040 70%); /* For Opera 11.6 to 12.0 */
+      background: -moz-radial-gradient(#392613 20%, #bf8040 70%); /* For Firefox 3.6 to 15 */
+      background: radial-gradient(#392613 20%, #bf8040 70%); /* Standard syntax */
+      border-radius: 50%;
+      height: 30%;
+      left: 30%;
+      position: absolute;
+      top: 70%;
+      width: 40%;
+      z-index: 3;
+      .bear--nose {
+        background: #392613;
+        border-radius: 30px;
+        height: 40%;
+        left: 25%;
+        position: absolute;
+        top: 35%;
+        width: 50%;
+        z-index: 3;
+        .bear--left-nostril, .bear--right-nostril {
+          background: #130d06;
+          border-radius: 50%;
+          height: 35%;
+          position: absolute;
+          top: 45%;
+          width: 25%;
+          z-index: 4;
+        }
+        .bear--left-nostril { left: 20%; }
+        .bear--right-nostril { right: 20%; }
+      }
+    }
+  }
+
+}
+
+.bear--body {
+  background: #ac7339;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: 30%;
+  left: 30%;
+  position: absolute;
+  top: 70%;
+  width: 40%;
+  .bear--body-copy {
+    background: #ac7339;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  .bear--left-arm, .bear--right-arm {
+    background: #996633;
+    border-radius: 50px;
+    bottom: 0;
+    height: 150%;
+    position: absolute;
+    width: 35%;
+    z-index: 0;
+    .bear--left-paw, .bear--right-paw {
+      background: #261a0d;
+      border-radius: 50%;
+      height: 30%;
+      position: absolute;
+      width: 80%;
+      z-index: 1;
+    }
+  }
+  .bear--left-arm {
+    left: -40%;
+    transform: rotate(125deg);
+    .bear--left-paw {
+      left: 12%;
+      top: 67%;
+    }
+  }
+  .bear--right-arm {
+    right: -35%;
+    transform: rotate(45deg);
+    .bear--right-paw {
+      left: 9%;
+      top: 5%;
+    }
+  }
+}
