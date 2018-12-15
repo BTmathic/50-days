@@ -1,0 +1,185 @@
+.project--container-beaver {
+  background: green;
+}
+
+.beaver-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  max-height: 100vh;
+  max-width: 100vh;
+  width: 80%;
+  .beaver {
+    height: 60%;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    .beaver--body {
+      background: #663300;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      height: 60%;
+      left: 25%;
+      position: absolute;
+      top: 15%;
+      width: 40%;
+      .beaver--body-copy {
+        background: #663300;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+      }
+      .beaver--left-ear, .beaver--right-ear {
+        background: #663300;
+        border-radius: 50%;
+        height: 33%;
+        position: absolute;
+        top: -10%;
+        width: 40%;
+        z-index: 1;
+      }
+      .beaver--right-ear {
+        right: 0;
+      }
+      .beaver--left-eye, .beaver--right-eye {
+        background: white;
+        border-radius: 50%;
+        height: 25%;
+        position: absolute;
+        top: 25%;
+        width: 30%;
+        z-index: 4;
+        .beaver--left-pupil, .beaver--right-pupil {
+          background: black;
+          border-radius: 50%;
+          height: 55%;
+          position: absolute;
+          top: 38%;
+          width: 55%;
+          z-index: 5;
+        }
+        .beaver--left-pupil {
+          left: 38%;
+        }
+        .beaver--right-pupil {
+          right: 38%;
+        }
+      }
+      .beaver--left-eye {
+        left: 15%;
+      }
+      .beaver--right-eye {
+        right: 15%;
+      }
+      .beaver--nose {
+        background: black;
+        border-radius: 50%;
+        height: 10%;
+        left: 40%;
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        z-index: 4;
+      }
+      .beaver--left-mouth, .beaver--right-mouth {
+        background: #663300;
+        border-bottom: 4px black solid;
+        border-radius: 50%;
+        height: 25%;
+        position: absolute;
+        top: 40%;
+        width: 30%;
+        z-index: 3;
+      }
+      .beaver--left-mouth {
+        left: 23%;
+      }
+      .beaver--right-mouth {
+        right: 23%;
+      }
+      .beaver--left-tooth, .beaver--right-tooth {
+        background: white;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-radius: 5px;
+        border-right: 1px solid black;
+        height: 20%;
+        position: absolute;
+        top: 60%;
+        width: 15%;
+        z-index: 2;
+      }
+      .beaver--left-tooth {
+        left: 34%;
+      }
+      .beaver--right-tooth {
+        right: 34%;
+      }
+      .beaver--left-arm, .beaver--right-arm {
+        background: #663300;
+        height: 25%;
+        position: absolute;
+        top: 50%;
+        width: 30%;
+      }
+      .beaver--left-arm {
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        left: -25%;
+      }
+      .beaver--right-arm {
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+        right: -25%;
+      }
+    }
+    .beaver--bottom-body {
+      background: #663300;
+      height: 15%;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      .beaver--tail {
+        background: #331a00;
+        border-bottom-right-radius: 45%;
+        border-top-right-radius: 45%;
+        height: 150%;
+        left: 100%;
+        position: absolute;
+        top: -50%;
+        width: 50%;
+      }
+      .beaver--left-mark-one, .beaver--left-mark-two, .beaver--right-mark-one, .beaver--right-mark-two {
+        background: black;
+        height: 175%;
+        position: absolute;
+        width: 4px;
+        z-index: 4;
+      }
+      .beaver--left-mark-one {
+        left: 115%;
+        top: -50%;
+        transform: rotate(-55deg);
+      }
+      .beaver--left-mark-two {
+        left: 128%;
+        top: -70%;
+        transform: rotate(-55deg);
+      }
+      .beaver--right-mark-one {
+        left: 115%;
+        top: -75%;
+        transform: rotate(55deg);
+      }
+      .beaver--right-mark-two {
+        left: 128%;
+        top: -55%;
+        transform: rotate(55deg);
+      }
+    }
+  }
+}
